@@ -16,16 +16,19 @@
                 @Html.DisplayNameFor(model => model.Nombre)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.FechaPedido)
+                @Html.DisplayNameFor(model => model.FechaCreacion)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.FechaEntrega)
+                @Html.DisplayNameFor(model => model.FechaRecepcion)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Estado)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Total)
             </th>
             <th></th>
         </tr>
@@ -37,10 +40,10 @@
                 @Html.DisplayFor(modelItem => item.Nombre)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.FechaPedido)
+                @Html.DisplayFor(modelItem => item.FechaCreacion)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.FechaEntrega)
+                @Html.DisplayFor(modelItem => item.FechaRecepcion)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Estado)
@@ -48,6 +51,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Descripcion)
             </td>
+             <th>
+                @Html.DisplayNameFor(model => model.Total)
+            </th>
             <td>
                     <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
                     <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Detalles</a> |

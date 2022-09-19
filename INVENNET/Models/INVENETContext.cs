@@ -75,13 +75,13 @@ namespace INVENNET.Models
                     .IsUnicode(false)
                     .HasDefaultValueSql("('Creado')");
 
-                entity.Property(e => e.FechaAprobacion).HasColumnType("date");
+                entity.Property(e => e.FechaRecepcion).HasColumnType("date");
 
-                entity.Property(e => e.FechaCreacion)
+                entity.Property(e => e.FechaRecepcion)
                     .HasColumnType("date")
                     .HasDefaultValueSql("(getdate())");
 
-                entity.Property(e => e.FechaRecepcion).HasColumnType("date");
+                entity.Property(e => e.FechaCreacion).HasColumnType("date");
 
                 entity.Property(e => e.Total).HasColumnType("decimal(18, 0)");
             });
