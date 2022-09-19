@@ -1,12 +1,13 @@
 ﻿@model INVENNET.Models.Proveedore
 
 @{
-    ViewData["Title"] = "Registrar Proveedor";
+  ViewData["Title"] = "Registrar Proveedor";
 }
 
 <h1>@ViewData["Title"]</h1>
 
 <h4>Proveedor</h4>
+<hr />
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -37,7 +38,6 @@
 <div>
     <a asp-action="Index" class="btn btn-warning">Cancelar</a>
 </div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
