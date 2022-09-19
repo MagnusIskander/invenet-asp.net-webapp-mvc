@@ -8,157 +8,157 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = INVENNET
 build_property.RootNamespace = INVENNET
-build_property.ProjectDir = C:\Users\ALEJANDRO\source\repos\INVENNET\INVENNET\
+build_property.ProjectDir = /home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ALEJANDRO\source\repos\INVENNET\INVENNET
+build_property.MSBuildProjectDirectory = /home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Categorias/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xDcmVhdGUuY3NodG1s
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Categorias/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Categorias/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xEZWxldGUuY3NodG1s
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Categorias/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Categorias/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xEZXRhaWxzLmNzaHRtbA==
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Categorias/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Categorias/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xFZGl0LmNzaHRtbA==
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Categorias/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Categorias/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xJbmRleC5jc2h0bWw=
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Categorias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/DetallesPedidoes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNQZWRpZG9lc1xDcmVhdGUuY3NodG1s
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/DetallesPedidoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGV0YWxsZXNQZWRpZG9lcy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/DetallesPedidoes/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNQZWRpZG9lc1xEZWxldGUuY3NodG1s
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/DetallesPedidoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGV0YWxsZXNQZWRpZG9lcy9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/DetallesPedidoes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNQZWRpZG9lc1xEZXRhaWxzLmNzaHRtbA==
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/DetallesPedidoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGV0YWxsZXNQZWRpZG9lcy9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/DetallesPedidoes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNQZWRpZG9lc1xFZGl0LmNzaHRtbA==
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/DetallesPedidoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGV0YWxsZXNQZWRpZG9lcy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/DetallesPedidoes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNQZWRpZG9lc1xJbmRleC5jc2h0bWw=
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/DetallesPedidoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGV0YWxsZXNQZWRpZG9lcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Pedidoes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcQ3JlYXRlLmNzaHRtbA==
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Pedidos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVkaWRvcy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Pedidoes/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcRGVsZXRlLmNzaHRtbA==
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Pedidos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVkaWRvcy9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Pedidoes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcRGV0YWlscy5jc2h0bWw=
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Pedidos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVkaWRvcy9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Pedidoes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcRWRpdC5jc2h0bWw=
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Pedidos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVkaWRvcy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Pedidoes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcSW5kZXguY3NodG1s
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Pedidos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVkaWRvcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Productoes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9lc1xDcmVhdGUuY3NodG1s
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Productoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdG9lcy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Productoes/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9lc1xEZWxldGUuY3NodG1s
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Productoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdG9lcy9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Productoes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9lc1xEZXRhaWxzLmNzaHRtbA==
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Productoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdG9lcy9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Productoes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9lc1xFZGl0LmNzaHRtbA==
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Productoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdG9lcy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Productoes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9lc1xJbmRleC5jc2h0bWw=
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Productoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdG9lcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Proveedores/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcQ3JlYXRlLmNzaHRtbA==
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Proveedores/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvdmVlZG9yZXMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Proveedores/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcRGVsZXRlLmNzaHRtbA==
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Proveedores/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvdmVlZG9yZXMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Proveedores/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcRGV0YWlscy5jc2h0bWw=
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Proveedores/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvdmVlZG9yZXMvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Proveedores/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcRWRpdC5jc2h0bWw=
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Proveedores/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvdmVlZG9yZXMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Proveedores/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcSW5kZXguY3NodG1s
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Proveedores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvdmVlZG9yZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Usuarios/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Usuarios/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Usuarios/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Usuarios/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Usuarios/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ALEJANDRO/source/repos/INVENNET/INVENNET/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-u38p5qwckz
+[/home/fmunoz/Escritorio/Cursos/invenet-asp.net-webapp-mvc/INVENNET/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-nqm0koyz7k
