@@ -16,7 +16,9 @@ namespace INVENNET.Models
         public DateTime? FechaCreacion { get; set; }
         public DateTime? FechaAprobacion { get; set; }
         public DateTime? FechaRecepcion { get; set; }
+        public int? IdUsuario { get; set; }
 
+        public virtual Usuario? IdUsuarioNavigation { get; set; }
         public virtual ICollection<DetallesPedido> DetallesPedidos { get; set; }
     }
 }

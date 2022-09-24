@@ -1,5 +1,7 @@
 using INVENNET.Models;
 using Microsoft.EntityFrameworkCore;
+using INVENNET.Controllers;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,14 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<INVENETContext>(options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("conexion")));
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(option =>
+{
+    option.LoginPath = "/AccesoController/Index";
+    option.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+    option.AccessDeniedPath = "/Home/Privacy";
+
+});
 
 var app = builder.Build();
 
@@ -25,9 +35,11 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.UseAuthentication();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Acceso}/{action=Index}/{id?}");
+
 
 app.Run();

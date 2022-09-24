@@ -11,8 +11,10 @@ namespace INVENNET.Models
         public DateTime? Fecha { get; set; }
         public int? IdProducto { get; set; }
         public int? IdPedido { get; set; }
+        public int? IdUsuario { get; set; }
 
         public virtual Pedido? IdPedidoNavigation { get; set; }
         public virtual Producto? IdProductoNavigation { get; set; }
+        public virtual Usuario? IdUsuarioNavigation { get; set; }
     }
 }

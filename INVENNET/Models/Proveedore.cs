@@ -15,7 +15,9 @@ namespace INVENNET.Models
         public string Nit { get; set; } = null!;
         public string Telefono { get; set; } = null!;
         public DateTime? Fecha { get; set; }
+        public int? IdUsuario { get; set; }
 
+        public virtual Usuario? IdUsuarioNavigation { get; set; }
         public virtual ICollection<Producto> Productos { get; set; }
     }
 }

@@ -14,16 +14,18 @@ namespace INVENNET.Models
         public string Nombre { get; set; } = null!;
         public string? Descripcion { get; set; }
         public string Marca { get; set; } = null!;
+        public decimal Precio { get; set; }
         public int Existencia { get; set; }
         public DateTime? FechaCreacion { get; set; }
         public DateTime? FechaCaducidad { get; set; }
         public DateTime? Fecha { get; set; }
-        public decimal Precio { get; set; }
         public int? IdProveedor { get; set; }
         public int? IdCategoria { get; set; }
+        public int? IdUsuario { get; set; }
 
         public virtual Categoria? IdCategoriaNavigation { get; set; }
         public virtual Proveedore? IdProveedorNavigation { get; set; }
+        public virtual Usuario? IdUsuarioNavigation { get; set; }
         public virtual ICollection<DetallesPedido> DetallesPedidos { get; set; }
     }
 }

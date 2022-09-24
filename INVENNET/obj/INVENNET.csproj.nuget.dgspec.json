@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ALEJANDRO\\source\\repos\\INVENNET\\INVENNET\\INVENNET.csproj": {}
+    "C:\\Manny Documents\\PROGRAMACION III\\Desarrollo Software CChart\\Proyecto Final\\Sem 7\\invenet-asp.net-webapp-mvc\\INVENNET\\INVENNET.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ALEJANDRO\\source\\repos\\INVENNET\\INVENNET\\INVENNET.csproj": {
+    "C:\\Manny Documents\\PROGRAMACION III\\Desarrollo Software CChart\\Proyecto Final\\Sem 7\\invenet-asp.net-webapp-mvc\\INVENNET\\INVENNET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALEJANDRO\\source\\repos\\INVENNET\\INVENNET\\INVENNET.csproj",
+        "projectUniqueName": "C:\\Manny Documents\\PROGRAMACION III\\Desarrollo Software CChart\\Proyecto Final\\Sem 7\\invenet-asp.net-webapp-mvc\\INVENNET\\INVENNET.csproj",
         "projectName": "INVENNET",
-        "projectPath": "C:\\Users\\ALEJANDRO\\source\\repos\\INVENNET\\INVENNET\\INVENNET.csproj",
-        "packagesPath": "C:\\Users\\ALEJANDRO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALEJANDRO\\source\\repos\\INVENNET\\INVENNET\\obj\\",
+        "projectPath": "C:\\Manny Documents\\PROGRAMACION III\\Desarrollo Software CChart\\Proyecto Final\\Sem 7\\invenet-asp.net-webapp-mvc\\INVENNET\\INVENNET.csproj",
+        "packagesPath": "C:\\Users\\MARIA LUZ AVILA\\.nuget\\packages\\",
+        "outputPath": "C:\\Manny Documents\\PROGRAMACION III\\Desarrollo Software CChart\\Proyecto Final\\Sem 7\\invenet-asp.net-webapp-mvc\\INVENNET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ALEJANDRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MARIA LUZ AVILA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
