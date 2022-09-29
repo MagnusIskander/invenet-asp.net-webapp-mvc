@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ALEJANDRO\\source\\repos\\INVENNET\\INVENNET\\INVENNET.csproj": {}
+    "E:\\PORTABLEAPPS\\cmder\\invenet-asp.net-webapp-mvc\\INVENNET\\INVENNET.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ALEJANDRO\\source\\repos\\INVENNET\\INVENNET\\INVENNET.csproj": {
+    "E:\\PORTABLEAPPS\\cmder\\invenet-asp.net-webapp-mvc\\INVENNET\\INVENNET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALEJANDRO\\source\\repos\\INVENNET\\INVENNET\\INVENNET.csproj",
+        "projectUniqueName": "E:\\PORTABLEAPPS\\cmder\\invenet-asp.net-webapp-mvc\\INVENNET\\INVENNET.csproj",
         "projectName": "INVENNET",
-        "projectPath": "C:\\Users\\ALEJANDRO\\source\\repos\\INVENNET\\INVENNET\\INVENNET.csproj",
+        "projectPath": "E:\\PORTABLEAPPS\\cmder\\invenet-asp.net-webapp-mvc\\INVENNET\\INVENNET.csproj",
         "packagesPath": "C:\\Users\\ALEJANDRO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALEJANDRO\\source\\repos\\INVENNET\\INVENNET\\obj\\",
+        "outputPath": "E:\\PORTABLEAPPS\\cmder\\invenet-asp.net-webapp-mvc\\INVENNET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

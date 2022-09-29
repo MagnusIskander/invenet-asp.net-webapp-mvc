@@ -1,12 +1,12 @@
 ﻿@model INVENNET.Models.Pedido
 
 @{
-    ViewData["Title"] = "Eliminar";
+    ViewData["Title"] = "Eliminar Pedido";
 }
 
-<h1>@ViewData["Title"]</h1>
+<!-- <h1>@ViewData["Title"]</h1> --->
 
-<h3>¿Está seguro de que desea eliminar esto?</h3>
+<h3 class="alert alert-danger">¿Está seguro de que desea eliminar esto?</h3>
 <div>
     <h4>Pedido</h4>
     <hr />
@@ -18,25 +18,25 @@
             @Html.DisplayFor(model => model.Estado)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Total)
+            Total($)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Total)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FechaCreacion)
+            Fecha de registro
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.FechaCreacion)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FechaAprobacion)
+            Fecha de aprobación
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.FechaAprobacion)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FechaRecepcion)
+            Fecha de recepción
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.FechaRecepcion)

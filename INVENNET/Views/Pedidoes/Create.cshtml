@@ -4,39 +4,33 @@
     ViewData["Title"] = "Registrar Pedido";
 }
 
-<h1>@ViewData["Title"]</h1>
+<!-- <h1>@ViewData["Title"]</h1> -->
 
-<h4>Pedido</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Total" class="control-label"></label>
-                <input asp-for="Total" class="form-control" />
-                <span asp-validation-for="Total" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="FechaAprobacion" class="control-label"></label>
-                <input asp-for="FechaAprobacion" class="form-control" />
-                <span asp-validation-for="FechaAprobacion" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="FechaRecepcion" class="control-label"></label>
-                <input asp-for="FechaRecepcion" class="form-control" />
-                <span asp-validation-for="FechaRecepcion" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Crear" class="btn btn-success" />
-            </div>
-        </form>
-    </div>
-</div>
+           <div class="card card-primary">
+              <div class="card-header">
+                <h3 class="card-title">Pedido</h3>
+              </div>
+              <!-- /.card-header -->
+              <!-- form start -->
+              <form asp-action="Create">
+                <div class="card-body">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                  <div class="form-group">
+                    <label for="" asp-for="Total" class="control-label">Total</label>
+                    <input type="text" class="form-control" id="" placeholder="" asp-for="Total">
+                    <span asp-validation-for="Total" class="text-danger"></span>
+                  </div>
+                </div>
+                <!-- /.card-body -->
 
-<div>
-    <a asp-action="Index" class="btn btn-warning">Cancelar</a>
-</div>
+                <div class="card-footer">
+                  <button type="submit" class="btn btn-success">Crear</button> |                 
+                    <a asp-action="Index" class="btn btn-warning">Cancelar</a>
+
+                </div>
+              </form>
+            </div>
+            <!-- /.card -->
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

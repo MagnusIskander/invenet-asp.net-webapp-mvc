@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using INVENNET.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace INVENNET.Controllers
 {
+    //[Authorize]
     public class PedidoesController : Controller
     {
         private readonly INVENETContext _context;

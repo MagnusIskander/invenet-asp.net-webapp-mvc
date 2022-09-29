@@ -4,42 +4,46 @@
     ViewData["Title"] = "Agregar Detalle";
 }
 
-<h1>@ViewData["Title"]</h1>
+<!-- <h1>@ViewData["Title"]</h1> -->
 
-<h4>Detalles Producto</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Cantidad" class="control-label"></label>
-                <input asp-for="Cantidad" class="form-control" />
-                <span asp-validation-for="Cantidad" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Subtotal" class="control-label"></label>
-                <input asp-for="Subtotal" class="form-control" />
-                <span asp-validation-for="Subtotal" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="IdProducto" class="control-label"></label>
+           <div class="card card-primary">
+              <div class="card-header">
+                <h3 class="card-title">Detalle</h3>
+              </div>
+              <!-- /.card-header -->
+              <!-- form start -->
+              <form asp-action="Create">
+                <div class="card-body">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                  <div class="form-group">
+                    <label for="" asp-for="Cantidad" class="control-label">Cantidad</label>
+                    <input type="text" class="form-control" id="" placeholder="" asp-for="Cantidad">
+                    <span asp-validation-for="Cantidad" class="text-danger"></span>
+                  </div>
+                 <div class="form-group">
+                    <label for="" asp-for="Subtotal" class="control-label">Subtotal</label>
+                    <input type="text" class="form-control" id="" placeholder="" asp-for="Subtotal">
+                    <span asp-validation-for="Subtotal" class="text-danger"></span>
+                  </div>
+                              <div class="form-group">
+                <label asp-for="IdProducto" class="control-label">Producto</label>
                 <select asp-for="IdProducto" class ="form-control" asp-items="ViewBag.IdProducto"></select>
             </div>
             <div class="form-group">
-                <label asp-for="IdPedido" class="control-label"></label>
+                <label asp-for="IdPedido" class="control-label">Pedido</label>
                 <select asp-for="IdPedido" class ="form-control" asp-items="ViewBag.IdPedido"></select>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Crear" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
+                </div>
+                <!-- /.card-body -->
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+                <div class="card-footer">
+                  <button type="submit" class="btn btn-success">Agregar</button> |                 
+                    <a asp-action="Index" class="btn btn-warning">Cancelar</a>
+
+                </div>
+              </form>
+            </div>
+            <!-- /.card -->
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

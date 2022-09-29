@@ -1,12 +1,12 @@
 ﻿@model INVENNET.Models.Producto
 
 @{
-    ViewData["Title"] = "Eliminar";
+    ViewData["Title"] = "Eliminar Producto";
 }
 
-<h1>@ViewData["Title"]</h1>
+<!-- <h1>@ViewData["Title"]</h1> --->
 
-<h3>¿Está seguro de que desea eliminar esto?</h3>
+<h3 class="alert alert-danger">¿Está seguro de que desea eliminar esto?</h3>
 <div>
     <h4>Producto</h4>
     <hr />
@@ -18,7 +18,7 @@
             @Html.DisplayFor(model => model.Nombre)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Descripcion)
+            Descripción
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Descripcion)
@@ -36,37 +36,37 @@
             @Html.DisplayFor(model => model.Existencia)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FechaCreacion)
+            Fecha de creación
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.FechaCreacion)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FechaCaducidad)
+            Fecha de caducidad
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.FechaCaducidad)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Fecha)
+            Fecha de registro
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Fecha)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Precio)
+            Precio($)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Precio)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdCategoriaNavigation)
+            Categoría
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.IdCategoriaNavigation.Id)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdProveedorNavigation)
+            Proveedor
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.IdProveedorNavigation.Id)

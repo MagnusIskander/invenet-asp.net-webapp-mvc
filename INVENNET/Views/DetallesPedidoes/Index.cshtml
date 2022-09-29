@@ -4,34 +4,27 @@
     ViewData["Title"] = "Detalles De Pedido";
 }
 
-<h1>@ViewData["Title"]</h1>
+<!-- <h1>@ViewData["Title"]</h1> -->
 
 <p>
-    <a class="btn btn-success" asp-action="Create">Agregar Producto</a>
+    <a class="btn btn-success" asp-action="Create">Agregar</a> | 
+    <a class="btn btn-primary"  asp-area="" asp-controller="Pedidoes" asp-action="Index">Regresar</a>
 </p>
-<table class="table">
+
+<!-- INICIO TABLA -->
+<table id="example2" class="table table-bordered table-striped">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Cantidad)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Subtotal)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Fecha)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdPedidoNavigation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdProductoNavigation)
-            </th>
-            <th></th>
+            <th>Cantidad</th>
+            <th>Subtotal($)</th>
+            <th>Fecha de registro</th>
+            <th>Pedido</th>
+            <th>Producto</th>
+            <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+    @foreach (var item in Model) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Cantidad)
@@ -49,11 +42,20 @@
                 @Html.DisplayFor(modelItem => item.IdProductoNavigation.Id)
             </td>
             <td>
-                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
-                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
             </td>
         </tr>
 }
     </tbody>
+    <tfoot>
+        <tr>
+            <th>Cantidad</th>
+            <th>Subtotal($)</th>
+            <th>Fecha de registro</th>
+            <th>Pedido</th>
+            <th>Producto</th>
+            <th>Acciones</th>
+        </tr>
+    </tfoot>
 </table>
+<!-- /.FIN TABLA -->

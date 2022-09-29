@@ -1,0 +1,81 @@
+    <!-- Main Sidebar Container -->
+      <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <!-- Brand Logo -->
+        <a class="brand-link" asp-area="" asp-controller="Home" asp-action="Index">
+          <img src="~/img/load.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+          <span class="brand-text font-weight-light">InveNET</span>
+        </a>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+          <!-- Sidebar user (optional) -->
+
+
+          <!-- SidebarSearch Form -->
+
+
+          <!-- Sidebar Menu -->
+          <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+              <!-- Add icons to the links using the .nav-icon class
+                   with font-awesome or any other icon font library -->
+              <li class="nav-item">
+                <a  class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">
+                  <i class="nav-icon fas fa-home"></i>
+                  <p>
+                    Inicio
+                  </p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="Proveedores" asp-action="Index">
+                  <i class="nav-icon fas fa-users"></i>
+                  <p>
+                    Proveedores
+                  </p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="Productoes" asp-action="Index">
+                  <i class="nav-icon fas fa-th"></i>
+                  <p>
+                    Productos
+                  </p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="Categorias" asp-action="Index">
+                  <i class="nav-icon fas fa-bars"></i>
+                  <p>
+                    Categorías
+                  </p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="Pedidoes" asp-action="Index">
+                  <i class="nav-icon fas fa-chart-pie"></i>
+                  <p>
+                    Pedidos
+                  </p>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="Usuarios" asp-action="Index">
+                  <i class="nav-icon fas fa-user"></i>
+                  <p>
+                    Usuarios
+                  </p>
+                </a>
+              </li>
+              
+            </ul>
+          </nav>
+          <!-- /.sidebar-menu -->
+        </div>
+        <!-- /.sidebar -->
+      </aside>

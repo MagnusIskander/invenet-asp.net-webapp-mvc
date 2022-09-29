@@ -4,32 +4,30 @@
     ViewData["Title"] = "Proveedores";
 }
 
-<h1>@ViewData["Title"]</h1>
+<!-- <h1>@ViewData["Title"]</h1> -->
 
 <p>
-    <a class="btn btn-success" asp-action="Create">Registrar Proveedor</a>
+    <a class="btn btn-success" asp-action="Create">Registrar</a>
 </p>
-<table class="table">
+
+<!-- INICIO TABLA -->
+<table id="example2" class="table table-bordered table-striped">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nombre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Nit)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Telefono)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Fecha)
-            </th>
-            <th></th>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Nit</th>
+            <th>Teléfono</th>
+            <th>Fecha de registro</th>
+            <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+    @foreach (var item in Model) {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Nombre)
             </td>
@@ -43,11 +41,20 @@
                 @Html.DisplayFor(modelItem => item.Fecha)
             </td>
             <td>
-              <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-              <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
-              <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Detalles</a> | <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> | <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
             </td>
         </tr>
 }
     </tbody>
+    <tfoot>
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Nit</th>
+            <th>Teléfono</th>
+            <th>Fecha de registro</th>
+            <th>Acciones</th>
+        </tr>
+    </tfoot>
 </table>
+<!-- /.FIN TABLA -->

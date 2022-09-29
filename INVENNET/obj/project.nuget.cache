@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ocgGykL34WP0IdAw/X8tWN1m5lOIc1ANch07X8tRpSro1nFS1m8l2vBhVzEE71UW50lfWeR6RR/phlNTjNlh1A==",
+  "dgSpecHash": "qasc4Q3Niql3YqVUxm9r2F72KbcmWQ0DiguOWUrE41HdlGfeC2X+DVmywNTfur/FfjM6X+5q3oy80EtRDx7drw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ALEJANDRO\\source\\repos\\INVENNET\\INVENNET\\INVENNET.csproj",
+  "projectFilePath": "E:\\PORTABLEAPPS\\cmder\\invenet-asp.net-webapp-mvc\\INVENNET\\INVENNET.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ALEJANDRO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ALEJANDRO\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
