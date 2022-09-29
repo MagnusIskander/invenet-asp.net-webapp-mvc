@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using INVENNET.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace INVENNET.Controllers
 {
+    [Authorize]
     public class UsuariosController : Controller
     {
         private readonly INVENETContext _context;
@@ -59,7 +61,9 @@ namespace INVENNET.Controllers
             {
                 _context.Add(usuario);
                 await _context.SaveChangesAsync();
+                ViewBag.alerta = "Usuario creado";
                 return RedirectToAction(nameof(Index));
+
             }
             return View(usuario);
         }

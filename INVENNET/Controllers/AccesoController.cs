@@ -26,6 +26,7 @@ namespace INVENNET.Controllers
                 Console.WriteLine(usuario.ToString());
                 var claims = new List<Claim>
                 {
+                    new Claim(ClaimTypes.NameIdentifier, Convert.ToString(usuario.Id)),
                     new Claim(ClaimTypes.Name, usuario.Usuario1),
                     new Claim(ClaimTypes.Role, usuario.Rol)
                     //new Claim("Password", _usuario.Password)
@@ -35,11 +36,19 @@ namespace INVENNET.Controllers
                 Console.WriteLine(rol);
                 claims.Add);*/
                 var ClaimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(ClaimsIdentity));
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                                                                          new ClaimsPrincipal(ClaimsIdentity),
+                                                                          new AuthenticationProperties
+                                                                          {
+                                                                              ExpiresUtc = DateTime.UtcNow.AddMinutes(60),
+                                                                              IsPersistent= true,
+                                                                              AllowRefresh=true
+                                                                          });
                 return RedirectToAction("Index", "Home");
             }
             else
             {
+                ViewBag.Message = "Password Incorrecto";
                 return View();
             }
         }

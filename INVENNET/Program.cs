@@ -14,8 +14,9 @@ builder.Services.AddDbContext<INVENETContext>(options =>
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(option =>
 {
     option.LoginPath = "/AccesoController/Index";
+    option.SlidingExpiration = true;
     option.ExpireTimeSpan = TimeSpan.FromMinutes(30);
-    option.AccessDeniedPath = "/Home/Privacy";
+    option.AccessDeniedPath = "/Acceso/Error";
 
 });
 
@@ -31,11 +32,11 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
 
-app.UseAuthorization();
 app.UseAuthentication();
+app.UseAuthorization();
+
 
 app.MapControllerRoute(
     name: "default",

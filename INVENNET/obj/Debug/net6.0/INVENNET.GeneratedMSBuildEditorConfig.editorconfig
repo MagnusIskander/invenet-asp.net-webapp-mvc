@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = c:\Manny Documents\PROGRAMACION III\Desarrollo Software CChart\Proyecto Final\Sem 7\invenet-asp.net-webapp-mvc\INVENNET
 build_property._RazorSourceGeneratorDebug = 
 
+[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Acceso/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Acceso/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

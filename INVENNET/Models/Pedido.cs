@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace INVENNET.Models
 {
@@ -11,7 +12,13 @@ namespace INVENNET.Models
         }
 
         public int Id { get; set; }
+
+        [Required(ErrorMessage = "Este campo es obligatorio")]
+        [MaxLength(50, ErrorMessage = "Este registro es demaciado largo")]
+        [MinLength(5, ErrorMessage = "Este registro es demaciado corto")]
         public string? Estado { get; set; }
+
+        [Required(ErrorMessage = "Este campo es obligatorio")]
         public decimal Total { get; set; }
         public DateTime? FechaCreacion { get; set; }
         public DateTime? FechaAprobacion { get; set; }

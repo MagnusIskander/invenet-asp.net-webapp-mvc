@@ -2,3 +2,13 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
+$(function () {
+    $('.btn_show').click(function (ev) {
+        ev.preventDefault();
+        $('#contenido').slideToggle("slow");
+    });
+})
+
+function createSuccess(){
+    $("#create_success").alert();
+}

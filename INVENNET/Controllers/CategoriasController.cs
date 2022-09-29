@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace INVENNET.Controllers
 {
-    [Authorize]
+    
     public class CategoriasController : Controller
     {
         private readonly INVENETContext _context;
