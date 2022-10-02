@@ -8,165 +8,177 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = INVENNET
 build_property.RootNamespace = INVENNET
-build_property.ProjectDir = c:\Manny Documents\PROGRAMACION III\Desarrollo Software CChart\Proyecto Final\Sem 7\invenet-asp.net-webapp-mvc\INVENNET\
+build_property.ProjectDir = C:\invenet-asp.net-webapp-mvc\INVENNET\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Manny Documents\PROGRAMACION III\Desarrollo Software CChart\Proyecto Final\Sem 7\invenet-asp.net-webapp-mvc\INVENNET
+build_property.MSBuildProjectDirectory = C:\invenet-asp.net-webapp-mvc\INVENNET
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Acceso/Error.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Acceso/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Acceso/Index.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Acceso/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Categorias/Create.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Categorias/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Categorias/Delete.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Categorias/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Categorias/Details.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Categorias/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Categorias/Edit.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Categorias/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Categorias/Index.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Categorias/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/DetallesPedidoes/Create.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/DetallesPedidoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNQZWRpZG9lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/DetallesPedidoes/Delete.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/DetallesPedidoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNQZWRpZG9lc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/DetallesPedidoes/Details.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/DetallesPedidoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNQZWRpZG9lc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/DetallesPedidoes/Edit.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/DetallesPedidoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNQZWRpZG9lc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/DetallesPedidoes/Index.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/DetallesPedidoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNQZWRpZG9lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Home/Index.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Home/Privacy.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Pedidoes/Create.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Pedidoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Pedidoes/Delete.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Pedidoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Pedidoes/Details.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Pedidoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Pedidoes/Edit.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Pedidoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Pedidoes/Index.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Pedidoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Productoes/Create.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Productoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Productoes/Delete.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Productoes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9lc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Productoes/Details.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Productoes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9lc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Productoes/Edit.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Productoes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9lc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Productoes/Index.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Productoes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Proveedores/Create.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Proveedores/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Proveedores/Delete.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Proveedores/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Proveedores/Details.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Proveedores/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Proveedores/Edit.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Proveedores/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Proveedores/Index.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Proveedores/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Shared/Error.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Shared/_Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Shared/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Usuarios/Create.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Usuarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Usuarios/Delete.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Usuarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Usuarios/Details.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Usuarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Usuarios/Edit.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Usuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Usuarios/Index.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/_ViewImports.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/_ViewStart.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Manny Documents/PROGRAMACION III/Desarrollo Software CChart/Proyecto Final/Sem 7/invenet-asp.net-webapp-mvc/INVENNET/Views/Shared/_Layout.cshtml]
+[C:/invenet-asp.net-webapp-mvc/INVENNET/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-u38p5qwckz

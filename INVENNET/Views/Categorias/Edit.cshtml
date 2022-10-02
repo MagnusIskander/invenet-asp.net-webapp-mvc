@@ -4,40 +4,44 @@
     ViewData["Title"] = "Editar Categoria";
 }
 
-<h1>@ViewData["Title"]</h1>
+<!-- <h1>@ViewData["Title"]</h1> -->
 
-<h4>Categoria</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="Nombre" class="control-label"></label>
-                <input asp-for="Nombre" class="form-control" />
-                <span asp-validation-for="Nombre" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Descripcion" class="control-label"></label>
-                <input asp-for="Descripcion" class="form-control" />
-                <span asp-validation-for="Descripcion" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Fecha" class="control-label"></label>
-                <input asp-for="Fecha" class="form-control" />
-                <span asp-validation-for="Fecha" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Editar" class="btn btn-success" />
-            </div>
-        </form>
-    </div>
-</div>
+           <div class="card card-primary">
+              <div class="card-header">
+                <h3 class="card-title">Categoría</h3>
+              </div>
+              <!-- /.card-header -->
+              <!-- form start -->
+              <form asp-action="Edit">
+                <div class="card-body">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                  <div class="form-group">
+                    <label for="" asp-for="Nombre" class="control-label">Nombre</label>
+                    <input type="text" class="form-control" id="" placeholder="" asp-for="Nombre">
+                    <span asp-validation-for="Nombre" class="text-danger"></span>
+                  </div>
+                  <div class="form-group">
+                    <label for="" asp-for="Descripcion" class="control-label">Descripción</label>
+                    <input type="text" class="form-control" id="" placeholder="" asp-for="Descripcion">
+                    <span asp-validation-for="Descripcion" class="text-danger"></span>
+                  </div>
+                  <!-- <div class="form-group">
+                    <label for="" asp-for="Fecha" class="control-label"></label> -->
+                    <input type="hidden" class="form-control" id="" placeholder="" asp-for="Fecha">
+                <!-- <span asp-validation-for="Fecha" class="text-danger"></span>
+            </div>-->
+                </div>
+                <!-- /.card-body -->
 
-<div>
-    <a asp-action="Index" class="btn btn-warning">Cancelar</a>
-</div>
+                <div class="card-footer">
+                  <button type="submit" class="btn btn-success">Editar</button> |                 
+                    <a asp-action="Index" class="btn btn-warning">Cancelar</a>
+
+                </div>
+              </form>
+            </div>
+            <!-- /.card -->
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

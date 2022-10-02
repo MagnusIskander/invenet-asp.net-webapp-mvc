@@ -42,7 +42,7 @@ namespace INVENNET.Models
         public int? IdProveedor { get; set; }
         [Required(ErrorMessage = "Este campo es obligatorio")]
         public int? IdCategoria { get; set; }
-        [Required(ErrorMessage = "Este campo es obligatorio")]
+        //[Required(ErrorMessage = "Este campo es obligatorio")]
         public int? IdUsuario { get; set; }
 
         public virtual Categoria? IdCategoriaNavigation { get; set; }

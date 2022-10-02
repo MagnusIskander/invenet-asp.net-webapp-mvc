@@ -18,7 +18,7 @@ namespace INVENNET.Models
         [MinLength(5, ErrorMessage = "Este registro es demaciado corto")]
         public string? Estado { get; set; }
 
-        [Required(ErrorMessage = "Este campo es obligatorio")]
+        //[Required(ErrorMessage = "Este campo es obligatorio")]
         public decimal Total { get; set; }
         public DateTime? FechaCreacion { get; set; }
         public DateTime? FechaAprobacion { get; set; }
